@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "85 Reserve Royal Peppermint & Cinnamon Infusion Tin Caddy",
+        "price": 18.25,
+        "image": { "fields": { "file": { "url": "./img/product-1.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "85 Reserve Royal Ceylon Breakfast Black Tea Tin Caddy",
+        "price": 18.25,
+        "image": { "fields": { "file": { "url": "./img/product-2.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "85 Reserve Rose, Lychee and Vanilla Ceylon Black Tea Tin Caddy",
+        "price": 18.25,
+        "image": { "fields": { "file": { "url": "./img/product-3.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "85 Reserve Earl Grey & Vanilla Ceylon Black Tea Tin Caddy",
+        "price": 18.25,
+        "image": { "fields": { "file": { "url": "./img/product-4.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "85 Reserve Ceylon Spice Chai Black Tea Tin Caddy",
+        "price": 18.25,
+        "image": { "fields": { "file": { "url": "./img/product-5.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Stassen Earl Grey 25 enveloped teabags",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "./img/product-6.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Dilmah Vanilla Flavoured Ceylon Black 20 Tea Bags",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "./img/product-7.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Dilmah Lemon Flavoured Ceylon Black 20 Tea Bags",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "./img/product-8.png" } } }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "Giri Earl Grey with Ceylon Black 20 Pyramid Tea Bags",
+        "price": 5.19,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/product-9.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "Dilmah Strawberry Flavoured 20 Tea Bags",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/product-10.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Dilmah Ginger Flavoured Ceylon Black Tea 20 Tea Bags",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/product-11.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Dilmah Lychee Ceylon Black Tea",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/product-12.png"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
