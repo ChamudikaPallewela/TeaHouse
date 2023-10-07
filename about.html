@@ -34,6 +34,24 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="js/register-service-worker.js"></script>
 </head>
+<style>
+    /* Add some basic styling for mobile responsiveness */
+    .calendar-container {
+            position: relative;
+            width: 90%;
+            padding-top: 90%; /* 1:1 aspect ratio (adjust as needed) */
+        }
+
+        /* Responsive iframe within the container */
+        .calendar-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 90%;
+            height: 100%;
+            border: none;
+        }
+</style>
 
 <body>
 
@@ -129,13 +147,16 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <h1>Geolocation: Get</h1>
+                        <h1>Find your location : Geolocation: Get</h1>
                             <button id="start">Start</button>
     
                             <section id="output"></section>
                     </div>
                     <h1>view our working days</h1>
-                    <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%237CB342&ctz=Asia%2FColombo&showTitle=0&src=ZTczNjhiNGYyMmYyZjRkNGZmZmQyYTNjMTkyOWQzZGEzN2QxOGRkYzFlNWY0ODNiNTU4YmExYzljNTg1ZjU1NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IubGsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5&color=%230B8043" style="border:solid 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+                    <div class="calendar-container">
+                    <iframe class="calendar-iframe" src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%237CB342&ctz=Asia%2FColombo&showTitle=0&src=ZTczNjhiNGYyMmYyZjRkNGZmZmQyYTNjMTkyOWQzZGEzN2QxOGRkYzFlNWY0ODNiNTU4YmExYzljNTg1ZjU1NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IubGsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5&color=%230B8043" style="border:solid 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+                    </div>
+
                 </div>
                 
             </div>
@@ -233,6 +254,19 @@
           return `https://maps.google.com/maps?q=${lat},${lng}&Roadmap&z=16&ie=UTF8&iwloc=&output=embed`;
         }
       </script>
+      <script>
+        window.addEventListener('load', () => {
+    if (!navigator.onLine) {
+
+        window.location.href = 'offline.html';
+
+    }
+
+});
+
+ 
+
+    </script>
 
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
